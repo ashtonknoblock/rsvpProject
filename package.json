@@ -1,7 +1,6 @@
 {
   "name": "rsvpproject",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,15 @@
     "express": "^4.16.3",
     "mongoose": "^5.0.17",
     "pug": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashtonknoblock/rsvpProject.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ashtonknoblock/rsvpProject/issues"
+  },
+  "homepage": "https://github.com/ashtonknoblock/rsvpProject#readme",
+  "description": ""
 }

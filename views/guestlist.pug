@@ -3,16 +3,19 @@ html
   head
     title= title
     link(rel="stylesheet", href="main.css")
+    link(rel="stylesheet", href="guestlist.css")
   body
     header
         h1 Guest List
-    div
-        h4 Attending
-        each name in attending
-            div
-                p #{name}
-    div
-        h4 Not Attending
-        each name in notAttending
-            div
-                p #{name}
+    a(href='/' id='viewGuestList') Click to RSVP another person
+    #container
+        #attending
+            h3 Attending:
+            each name in attending
+                div
+                    p #{name}
+        #notAttending
+            h3 Not Attending:
+            each name in notAttending
+                div
+                    p #{name}

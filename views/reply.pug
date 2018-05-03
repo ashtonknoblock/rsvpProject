@@ -3,10 +3,12 @@ html
   head
     title= title
     link(rel="stylesheet", href="main.css")
+    link(rel="stylesheet", href="guestlist.css")
   body
     header
         h1 Event RSVP
-    h3 Thank you for your response!
-    div
-        a(href='/guests' id='viewGuestList') View Guest List
-    script(src='main.js')
+    #container
+        h4 Thank you for your response!
+        div
+            a(href='/guests' id='viewGuestList') View Guest List
+        script(src='main.js')
